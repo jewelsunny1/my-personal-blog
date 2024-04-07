@@ -1,0 +1,81 @@
+*{
+    
+    font-family:'Times New Roman', Times, serif
+}
+
+body{
+    background-color: rgba(169, 203, 242, 0.928);
+}
+
+h4{
+    margin:0;
+    font-size: xx-large;
+}
+
+.container{
+  height: 95vh;
+  width:100%;
+  display:flex;
+   
+}
+
+.box-1{
+padding: 10px;
+border: solid 5px red;
+margin-bottom: 20px;
+
+}
+
+.box-2{
+    flex-grow: 1;
+    border: solid 5px rgb(41, 33, 101);
+    margin: 0 10px;
+    max-width: 50%;
+}
+
+
+.form-box{
+    flex-grow: 1;
+    border: solid 5px rgb(41, 33, 101);
+    max-width: 50%;
+    font-size:large;
+    
+}
+
+.box-2,
+.form-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 75px 11px 1px 0px;
+    text-align: center;
+
+}
+
+.box-2 img {
+    max-width: 100%;
+    max-height: 554px
+
+}
+
+.form-box input{
+    font-size: large;
+    
+}
+.form-box textarea{
+    font-size: large;
+}
+
+.form-box label{
+    font-size: large;
+}
+    
+.form-box button{
+    font-size: larger;
+}
+
+#submit-form{
+    cursor: pointer;
+}
+

@@ -1,0 +1,155 @@
+*{
+    font: size 35px; 
+    font-family:sans-serif;
+   }
+   
+   
+   h1{
+       font-size: 40px;
+       font-weight: unset;
+       padding: 10px;
+       margin-top: 0px;
+       background-color: mistyrose;
+   }
+   
+   
+   
+   
+   h2{
+       font-size: 31px;
+       font-weight: unset;
+       padding: 10px;
+       margin-top: 0px; 
+    
+       
+   }
+   
+   
+   
+   
+   .section-1 {
+       display:inline-flex;
+       /*flex-direction: column; */
+   
+   }
+   
+   .profile{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left: 5px;
+   }
+   
+   .profile img {
+       height: auto;
+       width: 161px;
+       margin-left: 9px;
+   }
+   
+   
+   .portfolio-buttons{
+       display: flex;
+       justify-content: flex-end;
+       margin: -46px 0px 10px 0px;
+       font-size: 16px
+   }
+       
+       
+   .button{
+       flex: 0 0 79px;
+       padding: 15px;
+       text-align: center;
+       text-decoration: none;
+       color: black;
+       background-color: mistyrose;
+   }
+   
+   .button:hover{
+   cursor: pointer;
+   background-color: lightblue;
+   color: darkblue;
+   }
+   
+   #profile-pic{
+       width: 228px;
+       height: 300px;
+   }
+   
+   .portfolio{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left: 86px;
+       position:relative
+   }
+   
+   /*.overlay-text{
+       position: absolute;
+       top:15%;
+       left: 15%;
+       transform: translate(-50%,-50%);
+       
+   
+   }*/
+   
+   .large{
+       justify-content: center;
+       align-items: center;
+   
+   }
+   .small{
+       justify-content: center;
+       align-items: center;
+       display:inline;
+   }
+   
+   #large-img{
+       width: 341px;
+       height: 254px;
+   }
+   
+   
+   
+   .small-img{
+       width: 250px;
+       height: 150px;
+   }
+   
+   .contact{
+       display: flex;
+       justify-content: space-evenly;
+       margin-top: -33px;
+   }
+   
+   .contact p {
+      display:inline;
+      margin: 0; 
+   }
+   
+   @media screen and (max-width:786px){
+       .section-1{
+           display:flex;
+           flex-direction: colum;
+           align-items:center
+       }
+       
+       .profile img{
+           width:100%;
+           max-width: 300px;
+           height:auto;
+           margin-left:0
+       }
+       .portfolio{
+           margin-left: 0;
+       }
+       .button{
+           flex: 0 0 auto;
+           margin-right:5px;
+       }
+   }
+   
+   
+   
+       
+   
+   
