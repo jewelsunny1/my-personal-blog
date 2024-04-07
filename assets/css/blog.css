@@ -1,0 +1,64 @@
+h1 {
+     font-weight: unset;
+    padding: 10px;
+    font-size:xx-large;
+    
+    
+}
+p{
+    font-size: 25px;
+    font-weight: unset;
+    padding: 4px;
+    margin-top: 1px;
+    
+
+}
+
+
+h2 {
+    font-size: 18px;
+    font-weight: unset;
+    padding: 4px;
+    margin-top: 1px;
+    
+}
+textarea {
+    resize: none;
+    width: 1460px;
+    height: 49px;
+    margin: 9px -15px 7px 9px;
+    
+}
+
+a{
+    color: white;
+}
+
+/* Remember this class is applied to the whole body1 so */
+.light-mode{
+    background-color: rgb(173, 208, 246);
+    color: rgb(26, 26, 91);
+
+}
+/*Not found on html only is here to grab for toggle method on blog.js*/
+.dark-mode{
+    background-color: rgb(52, 52, 111);
+    color: rgb(173, 208, 246);
+}
+.content-tiles{
+    
+    border: solid 2px;
+    width: 100%;
+   
+}
+.section-1{
+    
+    border: solid 2px;
+    width: 100%;
+
+}
+
+
+
+
+    

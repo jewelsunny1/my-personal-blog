@@ -12,19 +12,25 @@ h4{
     font-size: xx-large;
 }
 
+h2{
+    font-size: 31px;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
 .container{
   height: 95vh;
   width:100%;
   display:flex;
    
 }
+/*
+.heading-box{
+    border: solid 5px rgb(41, 33, 101);
+} */
 
-.box-1{
-padding: 10px;
-border: solid 5px red;
-margin-bottom: 20px;
 
-}
+
 
 .box-2{
     flex-grow: 1;
