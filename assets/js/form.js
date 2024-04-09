@@ -42,8 +42,8 @@ content: content
 localStorage.setItem('formInfo', JSON.stringify(formInfo));
 //by doing location.href, upon submitting bc of the click event we are
 //being redirected to the blog.html to view the second part of the website:)
-location.href="Challenges/my-personal-blog/blog.html"
-
+location.href="blog.html"
+// location.href="/blog.html"???????///
 
 });
 
