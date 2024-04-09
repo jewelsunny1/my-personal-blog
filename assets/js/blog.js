@@ -13,7 +13,7 @@ const backButton=document.querySelector('.back-button');
 
 backButton.addEventListener('click',function(){
     //remember this is how you redirect to a different link// 
-location.href='file:///Users/jewelsunny/Bootcamp/Challenges/my-personal-blog/index.html'
+location.href="index.html"
 
 
 });
